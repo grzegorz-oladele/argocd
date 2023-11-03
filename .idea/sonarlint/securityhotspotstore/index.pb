@@ -30,3 +30,5 @@ G
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+F
+kubernetes/ingress.yml,e/e/ee0da20ca174896b6c721abc4501bd949c2f81df
