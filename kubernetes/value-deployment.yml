@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: value
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: value-backend
+  strategy:
+    rollingUpdate:
+      maxSurge: 50%
+      maxUnavailable: 50%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        component: value-backend
+    spec:
+      containers:
+        - name: value-backend-container
+          image: value/backend:v1
+          ports:
+            - containerPort: 8100

@@ -1,0 +1,13 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: grzegorzjob
+  namespace: default
+spec:
+  template:
+    spec:
+      containers:
+      - name: grzegorzjob
+        image: grzesiekoladele/test-job:1
+        imagePullPolicy: Always
+      restartPolicy: OnFailure

@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  value_url: "http://value-service:8100"
+  message: "Grzegorz Oladele to jest gość"
+kind: ConfigMap
+metadata:
+  name: key-config-map
+  namespace: default

@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  key:
+    image: key/backend:v1
+    container_name: key
+    environment:
+      APP_CLIENT_URL: http://value:8100
+    ports:
+      - "8000:8000"
+    restart: always
+    networks:
+      - key_value_network
+  value:
+    image: value/backend:v1
+    container_name: value
+    restart: always
+    networks:
+      - key_value_network
+
+networks:
+  key_value_network:

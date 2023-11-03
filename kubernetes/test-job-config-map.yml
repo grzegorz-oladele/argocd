@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-job-config-map
+  namespace: default
+data:
+  key_url: "http://key-service:8000/message/"
+  number_messages: "10"
+  message: "kubernetes"
+
