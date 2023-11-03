@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: "key-backend-container"
-        image: grzesiekoladele/key:v2
+        image: grzesiekoladele/key:v3
         ports:
         - containerPort: 8000
         env:
