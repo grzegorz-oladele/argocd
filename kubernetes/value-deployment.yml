@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
         - name: value-backend-container
-          image: value/backend:v1
+          image: grzesiekoladele/value:v1
           ports:
             - containerPort: 8100
