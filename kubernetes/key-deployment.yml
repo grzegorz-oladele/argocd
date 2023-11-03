@@ -3,7 +3,7 @@ apiVersion: "apps/v1"
 kind: "Deployment"
 metadata:
   name: "key"
-  namespace: arg-dev
+  namespace: argo-dev
 spec:
   replicas: 1
   revisionHistoryLimit: 30
