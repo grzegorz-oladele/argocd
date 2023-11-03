@@ -5,3 +5,4 @@ data:
 kind: ConfigMap
 metadata:
   name: key-config-map
+  namespace: arg-dev
