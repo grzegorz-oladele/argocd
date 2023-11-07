@@ -4,7 +4,7 @@ kind: "Deployment"
 metadata:
   name: "key"
 spec:
-  replicas: 1
+  replicas: 4
   revisionHistoryLimit: 30
   selector:
     matchLabels:
