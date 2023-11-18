@@ -18,3 +18,11 @@ I
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 F
 kubernetes/ingress.yml,e/e/ee0da20ca174896b6c721abc4501bd949c2f81df
+N
+kubernetes/rabbitmq-deployment,5/2/52eae3e2ad48861dad683876551e594fb3cdf1ab
+R
+"kubernetes/rabbitmq-deployment.yml,7/f/7f8ce753581d851737f7c88dc17f46d58b6e70cb
+Z
+*kubernetes/rabbitmq-cluster-ip-service,yml,5/a/5a7ff5b99884785170430b7122faeff7a75e248c
+Z
+*kubernetes/rabbitmq-cluster-ip-service.yml,5/8/58c34c7e2a1fa02e6f051f75ccb64bbccbf8c9e2
