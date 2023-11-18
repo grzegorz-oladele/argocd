@@ -22,6 +22,6 @@ spec:
             - name: RABBITMQ_DEFAULT_VHOST
               value: /
             - name: RABBITMQ_DEFAULT_USER
-              value: user
+              value: rabbit
             - name: RABBITMQ_DEFAULT_PASSWORD
-              value: password
+              value: rabbit
